@@ -30,12 +30,5 @@ async def on_ready():
         print("[{}] has started in server [{}] with [{:,}] members.".format(
         bot.user.name, server.name, server.member_count))
 
-    #embed = discord.Embed(color = 6592175)
-    #embed.title = 'katybot'
-    #embed.description = "like a paper bag..."
-    #embed.timestamp = datetime.datetime.utcnow()
-    #embed.set_image(url = "https://i.imgur.com/DlWek4q.jpg")
-    #await bot.send_message(discord.Object(id='277385875183370260'),embed=embed)
-
 
 bot.run(config['disc']['token'])

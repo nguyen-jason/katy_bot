@@ -1,0 +1,11 @@
+{
+    "disc" : {
+        "token" : "token"
+    },
+
+    "ft" : {
+        "url" : "https://api.fortnitetracker.com/v1/profile/",
+        "key" : "key"
+    }
+
+}

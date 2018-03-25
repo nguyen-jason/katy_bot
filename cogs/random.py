@@ -16,6 +16,7 @@ class Random:
     async def babypics(self, *args):
         await self.bot.say("https://imgur.com/a/a5eyO")
 
+    # https://github.com/XNBlank/sudoBot
     def timedelta_str(self, dt):
         days = dt.days
         hours, r = divmod(dt.seconds, 3600)
@@ -30,7 +31,7 @@ class Random:
         else:
             return '{0} days, {1} hours, {2} minutes and {3} seconds.'.format(days,hours,minutes,sec)
 
-
+    # https://github.com/XNBlank/sudoBot
     @commands.command()
     async def uptime(self):
         """Displays bot uptime."""

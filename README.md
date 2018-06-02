@@ -1,6 +1,6 @@
 # katy_bot
-A Discord bot written in Python
-
+A Discord bot written in Python 3.5 and uses a Discord Python Wrapper.
+Includes Fortnite Tracker API compatibility
 ## Requirements
 
 - [Python 3.5](https://www.python.org/)
